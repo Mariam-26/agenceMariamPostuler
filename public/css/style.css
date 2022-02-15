@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border: 5px solid red;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  background: #040404;
+}
+
+/* style pr le header */
+#header {
+  border: 5px solid blue;
+  transition: ease-in-out 0.3s;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+}
+#header * {
+  transition: ease-in-out 0.3s;
+}
+#header h1 {
+  text-transform: uppercase;
+  display: block;
+  position: relative;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 2.1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-right: 300px;
+}
+#header h1:hover {
+  color: #fff;
+}
+#header .nav-menu {
+  margin-top: 10px;
+  margin-right: 70px;
+  width: 100%;
+}
+#header .nav-menu .bouton {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+#header .nav-menu ul {
+  display: flex;
+  margin-top: 40px;
+  padding: 0;
+  list-style: none;
+  margin: auto;
+}
+#header .nav-menu ul li {
+  margin-left: 15px;
+}
+#header .nav-menu a {
+  text-transform: uppercase;
+  display: block;
+  position: relative;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+#header .nav-menu a:hover {
+  color: #fff;
+}
+
+/* fin header */
+.container {
+  border: 5px solid green;
+}
+.container h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  text-align: center;
+  margin: 50px;
+  font-weight: 900;
+}
+.container .fa-facebook-f {
+  position: absolute;
+  right: 30px;
+  top: 30%;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.container .fa-facebook-f:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+.container .fa-twitter {
+  position: absolute;
+  right: 30px;
+  top: 37%;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.container .fa-twitter:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+.container .fa-instagram {
+  position: absolute;
+  right: 30px;
+  top: 44%;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.container .fa-instagram:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+.container .fa-snapchat-ghost {
+  position: absolute;
+  right: 30px;
+  top: 51%;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.container .fa-snapchat-ghost:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+.container .fa-whatsapp {
+  position: absolute;
+  right: 30px;
+  top: 58%;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.container .fa-whatsapp:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+.container .section {
+  border: 5px solid #ff00bf;
+  background: rgba(255, 255, 255, 0.08);
+  margin: auto;
+  width: 100%;
+}
+.container .section h3 {
+  padding: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.container .section p {
+  padding: 30px 200px;
+}
+.container .section .book {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 60%;
+  margin: auto;
+}
+
+footer {
+  margin-top: 150px;
+  background: rgba(255, 255, 255, 0.08);
+  height: 15vh;
+}
+footer span {
+  padding-top: 20px;
+  margin-right: 40px;
+  font-size: 1rem;
+}
+footer .copy {
+  font-size: 10px;
+}
+
+/* FIN FOOTER */
+@media screen and (max-width: 991px) {
+  /* style pr le header */
+}
+
+/*# sourceMappingURL=style.css.map */
