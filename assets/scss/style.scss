@@ -1,0 +1,180 @@
+// Style général
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: 5px solid red;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    background: #040404;
+}
+
+
+/* style pr le header */
+
+#header {
+    border: 5px solid blue;
+    transition: ease-in-out 0.3s;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    * {
+        transition: ease-in-out 0.3s;
+    }
+    h1 {
+        text-transform: uppercase;
+        display: block;
+        position: relative;
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 2.1rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        margin-right: 300px;
+        &:hover {
+            color: #fff;
+        }
+    }
+    // NAV
+    .nav-menu {
+        // margin-top: -450px;
+        margin-top: 10px;
+        margin-right: 70px;
+        width: 100%;
+        .bouton {
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+        ul {
+            display: flex;
+            margin-top: 40px;
+            padding: 0;
+            list-style: none;
+            margin: auto;
+            li {
+                margin-left: 15px;
+            }
+        }
+        a {
+            text-transform: uppercase;
+            display: block;
+            position: relative;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 1.1rem;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+    // FIN NAV
+}
+
+
+/* fin header */
+
+// MAIN
+.container {
+    border: 5px solid green;
+    // background: #040404;
+    h2 {
+        text-transform: uppercase;
+        font-size: 3rem;
+        text-align: center;
+        margin: 50px;
+        font-weight: 900;
+    }
+    .fa-facebook-f {
+        position: absolute;
+        right: 30px;
+        top: 30%;
+        font-size: 1.5rem;
+        color: #fff;
+        &:hover {
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+    .fa-twitter {
+        position: absolute;
+        right: 30px;
+        top: 37%;
+        font-size: 1.5rem;
+        color: #fff;
+        &:hover {
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+    .fa-instagram {
+        position: absolute;
+        right: 30px;
+        top: 44%;
+        font-size: 1.5rem;
+        color: #fff;
+        &:hover {
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+    .fa-snapchat-ghost {
+        position: absolute;
+        right: 30px;
+        top: 51%;
+        font-size: 1.5rem;
+        color: #fff;
+        &:hover {
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+    .fa-whatsapp {
+        position: absolute;
+        right: 30px;
+        top: 58%;
+        font-size: 1.5rem;
+        color: #fff;
+        &:hover {
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+    .section {
+        border: 5px solid rgb(255, 0, 191);
+        background: rgba(255, 255, 255, 0.08);
+        margin: auto;
+        width: 100%;
+        h3 {
+            padding: 50px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        p {
+            padding: 30px 200px;
+        }
+        .book {
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 60%;
+            margin: auto;
+        }
+    }
+}
+
+// FOOTER
+footer {
+    margin-top: 150px;
+    background: rgba(255, 255, 255, 0.08);
+    height: 15vh;
+    span {
+        padding-top: 20px;
+        margin-right: 40px;
+        font-size: 1rem;
+    }
+    .copy {
+        font-size: 10px;
+    }
+}
+
+
+/* FIN FOOTER */
+
+// MEDIA QUERY
+// MOBOLE
+@media screen and (max-width: 991px) {
+    /* style pr le header */
+}
