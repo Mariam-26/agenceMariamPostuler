@@ -148,7 +148,11 @@ body {
 footer {
   margin-top: 150px;
   background: rgba(255, 255, 255, 0.08);
-  height: 15vh;
+  height: 30vh;
+}
+footer .para1 {
+  border: 5px solid rebeccapurple !important;
+  padding: 40px;
 }
 footer span {
   padding-top: 20px;
@@ -160,8 +164,23 @@ footer .copy {
 }
 
 /* FIN FOOTER */
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 990px) {
+  footer span {
+    margin-right: 30px;
+    font-size: 13px;
+  }
+
+  /* FIN FOOTER */
+}
+/* FIN TABLETTE */
+@media screen and (max-width: 760px) {
   /* style pr le header */
+  .container h2 {
+    font-size: 1.6rem;
+  }
+
+  /* fin header */
+  /* FIN FOOTER */
 }
 
 /*# sourceMappingURL=style.css.map */

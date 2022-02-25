@@ -159,7 +159,11 @@ body {
 footer {
     margin-top: 150px;
     background: rgba(255, 255, 255, 0.08);
-    height: 15vh;
+    height: 30vh;
+    .para1 {
+        border: 5px solid rebeccapurple !important;
+        padding: 40px;
+    }
     span {
         padding-top: 20px;
         margin-right: 40px;
@@ -174,7 +178,33 @@ footer {
 /* FIN FOOTER */
 
 // MEDIA QUERY
-// MOBOLE
-@media screen and (max-width: 991px) {
-    /* style pr le header */
+// TABLETTE
+@media screen and (max-width: 990px) {
+    // FOOTER
+    footer {
+        span {
+            margin-right: 30px;
+            font-size: 13px;
+        }
+    }
+    /* FIN FOOTER */
 }
+
+
+/* FIN TABLETTE */
+
+// MOBILE
+@media screen and (max-width: 760px) {
+    /* style pr le header */
+    .container {
+        h2 {
+            font-size: 1.6rem;
+        }
+    }
+    /* fin header */
+    // FOOTER
+    /* FIN FOOTER */
+}
+
+// MEDIA QUERY
+// TABLETTE
